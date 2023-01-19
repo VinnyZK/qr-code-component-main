@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: var(--cinza-claro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+
+/* Project colors */
+:root {
+
+  --branco: hsl(0, 0%, 100%);
+  --cinza-claro: hsl(212, 45%, 89%);
+  --azul-acizentado: hsl(220, 15%, 55%);
+  --azul-escuro: hsl(218, 44%, 22%);
+}
+
+
+@media (min-width: 375px) {
+.main-content {
+  background-color: var(--branco);
+  width: 320px;
+  height: 485px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 287px;
+  height: 287px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.main-title {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.main-p {
+  color: var(--azul-acizentado);
+  text-align: center;
+  margin-top: 0.75rem;
+  font-size: 15px;
+}
+
+.text-content {
+  padding: 0 2rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+}
